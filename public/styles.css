@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+#chatBox {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px;
+    height: 300px;
+    width: 32%;
+    overflow-y: auto;
+    margin-top: 10px;
+    margin-left: 33%;
+
+}
+
+.chat-item {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-item img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#welcomeMessage {
+    margin-bottom: 10px;
+    width: 50%;
+    text-align: center;
+    padding-left: 25%;
+    padding-top: 2%;
+}
+
+.comments{
+     margin-bottom: 10px;
+    width: 50%;
+    text-align: center;
+    padding-left: 25%;
+    padding-top: 3%;
+}
+
+.hidden {
+    display: none;
+}
